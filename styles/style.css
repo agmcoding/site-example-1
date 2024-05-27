@@ -28,3 +28,20 @@ header nav ul input {
   border: 1px solid #edeff4;
   border-radius: 10px;
 }
+
+header nav ul button {
+  font-size: .9rem;
+  border: 0 solid transparent;
+}
+
+header nav ul li:nth-child(6) button {
+  background-color: transparent;
+  padding: .5rem;
+}
+
+header nav ul li:last-child button {
+  background-color: #ffcd1f;
+  font-weight: bolder;
+  padding: .9rem;
+  border-radius: 8px;
+}
