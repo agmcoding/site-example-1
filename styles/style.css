@@ -2,3 +2,29 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 1px;
 }
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem .5rem;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: #29292a;
+}
+
+header nav ul input {
+  background-color: #f6f7fb;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 600px;
+  height: 2rem;
+  padding: 0;
+  padding-inline-start: 10px;
+  border: 1px solid #edeff4;
+  border-radius: 10px;
+}
