@@ -5,6 +5,7 @@ html {
 
 header nav ul {
   list-style-type: none;
+  padding: 0;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -34,7 +35,7 @@ header nav ul button {
   border: 0 solid transparent;
 }
 
-header nav ul li:nth-child(6) button {
+header nav ul li:nth-child(7) button {
   background-color: transparent;
   padding: .5rem;
 }
