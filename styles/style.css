@@ -47,6 +47,37 @@ header nav ul li:last-child button {
   border-radius: 8px;
 }
 
+footer {
+  background-color: #f6f7fb;
+}
+
+footer section:first-child {
+  padding: 1rem;
+  font-size: 14px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+footer section:first-child h3 {
+  text-transform: uppercase;
+}
+
+footer section:first-child p a {
+  color: #29292a;
+  text-decoration: none;
+}
+
+footer section:last-child {
+  color: #898d9a;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /* mobile design */
 @media only screen and (max-width: 632px) {
   header nav ul input {
