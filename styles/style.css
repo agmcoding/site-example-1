@@ -65,6 +65,7 @@ header nav ul li:last-child button {
 
 footer {
   background-color: #f6f7fb;
+  padding-block: 1rem;
 }
 
 footer section:first-child {
@@ -78,11 +79,15 @@ footer section:first-child {
 
 footer section:first-child h3 {
   text-transform: uppercase;
+  margin-block-end: 1rem;
+}
+
+footer section:first-child p {
+  margin-block: 0.6rem;
 }
 
 footer section:first-child p a {
   color: #29292a;
-  text-decoration: none;
 }
 
 footer section:last-child {
