@@ -19,6 +19,10 @@ html {
   letter-spacing: 1px;
 }
 
+header nav {
+  padding: 1rem;
+}
+
 header nav ul {
   list-style-type: none;
   padding: 0;
