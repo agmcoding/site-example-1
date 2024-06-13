@@ -67,6 +67,52 @@ header nav ul li:last-child button {
   border-radius: 8px;
 }
 
+main article:first-child {
+  margin-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main article:first-child img {
+  width: 95%;
+  border-radius: 50%;
+}
+
+main article:first-child h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-block: 1rem 0.3rem;
+}
+
+main article:first-child h1 span:first-child {
+  color: rgb(103, 103, 255);
+}
+
+main article:first-child h1 span:last-child {
+  color: orange;
+}
+
+main article:first-child h2 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+main article:first-child p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 1rem;
+}
+
+main article:first-child button {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  border-radius: 30%;
+}
+
 footer {
   background-color: #f6f7fb;
   padding-block: 1rem;
