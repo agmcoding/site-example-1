@@ -38,6 +38,12 @@ header nav ul a {
   color: #29292a;
 }
 
+header nav ul a:focus,
+header nav ul a:hover {
+  border-block-end: 2px solid blue;
+  transition: 0.1s;
+}
+
 header nav ul input {
   background-color: #f6f7fb;
   font-family: inherit;
