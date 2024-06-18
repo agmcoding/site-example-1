@@ -73,6 +73,13 @@ header nav ul li:last-child button {
   border-radius: 8px;
 }
 
+main button {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  border-radius: 30%;
+}
+
 main > article:first-child {
   margin-block: 1rem 3rem;
   display: flex;
@@ -110,13 +117,6 @@ main > article:first-child p {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 1rem;
-}
-
-main > article:first-child button {
-  background-color: blue;
-  color: white;
-  padding: 1rem;
-  border-radius: 30%;
 }
 
 main section article figure {
