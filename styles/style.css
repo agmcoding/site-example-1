@@ -73,50 +73,83 @@ header nav ul li:last-child button {
   border-radius: 8px;
 }
 
-main article:first-child {
-  margin-block: 1rem;
+main button {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  border-radius: 30%;
+}
+
+main > article:first-child {
+  margin-block: 1rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-main article:first-child img {
+main > article:first-child img {
   width: 95%;
   border-radius: 50%;
 }
 
-main article:first-child h1 {
+main > article:first-child h1 {
   font-size: 4rem;
   text-align: center;
   margin-block: 1rem 0.3rem;
 }
 
-main article:first-child h1 span:first-child {
+main > article:first-child h1 span:first-child {
   color: rgb(103, 103, 255);
 }
 
-main article:first-child h1 span:last-child {
+main > article:first-child h1 span:last-child {
   color: orange;
 }
 
-main article:first-child h2 {
+main > article:first-child h2 {
   font-size: 3.2rem;
   text-align: center;
 }
 
-main article:first-child p {
+main > article:first-child p {
   text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 1rem;
 }
 
-main article:first-child button {
-  background-color: blue;
-  color: white;
+main section article figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block-end: 1.5rem;
+}
+
+main section article figcaption {
   padding: 1rem;
-  border-radius: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+
+main section article img {
+  width: 70%;
+  border-radius: 10%;
+}
+
+main section article h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+main section article p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 footer {
