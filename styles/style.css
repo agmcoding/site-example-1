@@ -96,6 +96,10 @@ header nav ul button {
   border: 0 solid transparent;
 }
 
+header nav ul li:nth-child(8) {
+  margin-inline-start: auto;
+}
+
 header nav ul li:nth-child(8) button {
   background-color: transparent;
   padding: .5rem;
