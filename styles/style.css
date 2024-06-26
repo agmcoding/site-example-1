@@ -33,6 +33,10 @@ header nav ul {
   gap: 1rem .5rem;
 }
 
+header nav ul li {
+  margin-inline-end: 1.2rem;
+}
+
 header nav ul a {
   text-decoration: none;
   color: #29292a;
@@ -41,7 +45,7 @@ header nav ul a {
 header nav ul a:focus,
 header nav ul a:hover {
   border-block-end: 2px solid blue;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 header nav ul input {
