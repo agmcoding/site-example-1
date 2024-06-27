@@ -129,8 +129,15 @@ main p {
   max-width: 70%;
 }
 
-main > article:first-child {
+main > article:first-child figure {
   margin-block: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main article:first-child figure figcaption {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,6 +277,17 @@ footer section:last-child {
 }
 
 @media only screen and (min-width: 768px) {
+  main > article:first-child figure {
+    flex-direction: row;
+    padding: 2rem;
+  }
+
+  main > article:first-child img {
+    width: 200%;
+    border-radius: 35%;
+    margin-inline-end: 6rem;
+  }
+
   main section article figure {
     display: flex;
     flex-direction: row;
