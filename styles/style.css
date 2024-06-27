@@ -155,17 +155,21 @@ main > article:first-child h1 {
   margin-block: 1rem 0.3rem;
 }
 
-main > article:first-child h1 span:first-child {
+main > article:first-child h1 strong:first-child {
   color: rgb(103, 103, 255);
 }
 
-main > article:first-child h1 span:last-child {
+main > article:first-child h1 strong:last-child {
   color: orange;
 }
 
 main > article:first-child h2 {
   font-size: 3.2rem;
   text-align: center;
+}
+
+main > article:first-child h2 em {
+  font-style: normal;
 }
 
 main > article:first-child p {
