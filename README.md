@@ -2,6 +2,8 @@
 
 An example of a website page as a learning platform.
 
+Link to the page: https://agmcoding.github.io/site-example-1/
+
 ## Technologies and Concepts
 
 The technologies used were:
@@ -9,7 +11,7 @@ The technologies used were:
 * HTML
 * CSS
 
-also applied concepts such as:
+Also applied concepts such as:
 
 * Semantic HTML
 * Responsive Web Design
